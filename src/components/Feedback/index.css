@@ -1,0 +1,59 @@
+/* Write your CSS code here. */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  width: 60%;
+  border-radius: 12px;
+  padding: 24px;
+}
+.first-container {
+  display: flex;
+  background: linear-gradient(to right, #ffeeee, #ffc0bb);
+  flex-direction: column;
+  height: 100vh;
+}
+.emojis-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading-of-emoji {
+  font-family: Roboto;
+  font-size: 20px;
+}
+.ul-things {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.emojis {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
+.loveemoji {
+  height: 100px;
+  width: 100px;
+}
+.love-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-love {
+  font-family: Roboto;
+}
+.para-font {
+  font-family: Roboto;
+}
